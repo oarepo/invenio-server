@@ -1,10 +1,10 @@
 # invenio-server
 Basic invenio server without UI.
 
-##Usage
+## Usage
 Server for testing oarepo repositories. It is only minimalistic version, so you can access only data model related URLs (api/records)
 
-##Instalation
+## Instalation
 1) install poetry (https://python-poetry.org/)
 2) inside invenio-server/inv run command `poetry install`
   this will create .venv folder inside invenio-server folder, if not:
