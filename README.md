@@ -25,7 +25,7 @@ Server for testing oarepo repositories. It is only minimalistic version, so you 
 
   SEARCH_ELASTIC_HOSTS = [
       dict(host='127.0.0.1', port=9200),
-  ]```
+  ] ```
   
 7) run command `./run.sh` (inside invenio-server/inv)
 8) from another terminal, run command ./bootstrap.sh (inside invenio-server/inv), this will also add some records to your repository
