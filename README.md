@@ -15,7 +15,8 @@ Server for testing oarepo repositories. It is only minimalistic version, so you 
 4) inside invenio-server/inv/.venv/var create folder `instance`
 5) inside invenio-server/inv/.venv/var/instance create file `invenio.cfg`
 6) put this inside invenio.cfg :
-  `SERVER_NAME='127.0.0.1:5000'
+
+  ```SERVER_NAME='127.0.0.1:5000'
   PREFERRED_URL_SCHEME='https'
 
   SQLALCHEMY_DATABASE_URI='sqlite:///test.db'
@@ -24,7 +25,7 @@ Server for testing oarepo repositories. It is only minimalistic version, so you 
 
   SEARCH_ELASTIC_HOSTS = [
       dict(host='127.0.0.1', port=9200),
-  ]`
+  ]```
   
 7) run command `./run.sh` (inside invenio-server/inv)
 8) from another terminal, run command ./bootstrap.sh (inside invenio-server/inv), this will also add some records to your repository
